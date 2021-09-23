@@ -22,6 +22,15 @@ localStorage when the user enters their name and clicks the 'save' button at the
 ![image](https://img.shields.io/badge/CSS-239120?&style=for-the-badge&logo=css3&logoColor=white)
 ![image](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
 
+## Resources
+
+- [How to make a quiz App](https://www.youtube.com/watch?v=f4fB9Xg2JEY)
+- [Build A Quiz App With JavaScript](https://www.youtube.com/watch?v=riDzcEQbX6k)
+- [JavaScript Array sort](https://www.w3schools.com/js/js_array_sort.asp)
+- [JavaScript Array methods](https://www.w3schools.com/js/js_array_methods.asp)
+
+## Author
+
 **Isadora Lopes**
 
 - [Profile](https://github.com/Isadora96)
