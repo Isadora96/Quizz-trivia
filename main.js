@@ -24,7 +24,6 @@ nextBtn.addEventListener("click", () => {
 
 function startGame() {
   containerStart.classList.add('hide')
-  
   //sorting an array in random order
   shuffleQuestions = questions[0].sort(() => Math.random() - .5)
   //currentQuestionIndex determines array index
@@ -62,7 +61,7 @@ function showQuestion(question) {
   //for each answer add a button
   question.incorrect_answers.forEach(answer => {
     const button = document.createElement('button')
-    button.innerText = answer.normalize('NFD').replace(/[\u0300-\u036f]/g, "");
+    button.innerText = answer
     button.classList.add('btn-answer')
     //setData to the correct answer
     if( answer === correctAnswer) {
