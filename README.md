@@ -2,4 +2,11 @@
 
 ![image](https://user-images.githubusercontent.com/80006401/134565499-8adc7ff8-1c70-4e9d-bb23-3ffbedff78b6.png)
 
-[API used](https://opentdb.com/api_config.php)
+This is a simple quiz built in vanilla javascript. A public api was used to get the questions.
+
+- Total questions = 10
+
+For each correct answer the user earns 10 points. The total score can be saved in 
+localStorage when the user enters their name and clicks the 'save' button at the end of the quiz.
+
+##[API used](https://opentdb.com/api_config.php)
