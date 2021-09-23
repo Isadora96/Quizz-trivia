@@ -9,11 +9,11 @@ This is a simple quiz built in vanilla javascript. A public api was used to get 
 For each correct answer the user earns 10 points. The total score can be saved in 
 localStorage when the user enters their name and clicks the 'save' button at the end of the quiz.
 
-## [API used](https://opentdb.com/api_config.php)
+## [Click here to check the API](https://opentdb.com/api_config.php)
 
 ## Technologies
 
-https://img.shields.io/badge/HTML-239120?style=for-the-badge&logo=html5&logoColor=white
-https://img.shields.io/badge/CSS-239120?&style=for-the-badge&logo=css3&logoColor=white
-https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E
+(https://img.shields.io/badge/HTML-239120?style=for-the-badge&logo=html5&logoColor=white)
+(https://img.shields.io/badge/CSS-239120?&style=for-the-badge&logo=css3&logoColor=white)
+(https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
 
