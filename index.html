@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Quizz</title>
+</head>
+<body>
+    <!--Play board-->
+    <div id="container-start" class="container">
+        <div id="home" class="flex-column flex-center">
+            <h1 class="title-play">Quiz trivia test</h1>
+            <button id="start-btn"  class="btn">Play</button>
+            <a href="/HighScore/highscore.html" id="high-score-btn" class="btn-score btn">High Scores</a>
+        </div>
+    </div>
+    <!--Game board-->
+    <div class="container">
+        <div id="question-container" class="flex-column flex-center hide">
+            <div id="hud">
+                <div class="hud-item">
+                    <p id="progressText" class="hud-prefix">
+                        Question
+                    </p>
+                    <div id="progressBar">
+                        <div id="progressBarFull"></div>
+                    </div>
+                </div>
+                <div class="hud-item">
+                    <p class="hud-prefix">
+                        Score
+                    </p>
+                    <h1 class="hud-main-text" id="score">
+                        0
+                    </h1>
+                </div>
+            </div>
+            
+            <h1 id="question" class="title-question">Question</h1>
+            <div id="answer-buttons" class="btn-grid"></div>
+            <div class="controls">
+                <button id="next-btn" class="next-btn btn hide">Next</button>
+            </div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>

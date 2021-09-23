@@ -1,0 +1,54 @@
+h1 {
+    margin: 0;
+    font-size: 2rem;
+}
+
+.end-form-container {
+    width: 95%;
+    display: grid;
+    max-width: 350px;
+}
+
+input {
+    margin-bottom: 1.5em;
+    padding: .5em;
+    font-size: 1.3rem;
+    outline: none;
+    border: none;
+    box-shadow: 0 0.1rem 1.4rem 0 rgba(86, 185, 235, 0.5);
+}
+
+.btn-end,
+.btn-score {
+    width: 100%;
+}
+
+input::placeholder {
+    color: #aaa;
+}
+
+.enter-name {
+    font-size: 1.3rem;
+    margin: .8em 0;
+    text-align: center;
+}
+
+#save-score {
+    border: none;
+}
+
+@media (min-width: 550px) {
+
+    h1 {
+        font-size: 3rem;
+    }
+
+    .enter-name {
+        font-size: 2.4rem;
+    }
+
+    .end-form-container {
+        max-width: 500px;
+    }
+}
+
