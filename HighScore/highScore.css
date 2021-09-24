@@ -9,12 +9,22 @@
 }
 
 #finalScore {
-    font-size: 5rem;
+    font-size: 2.5rem;
     margin: 0;
 }
 
 .high-score {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     margin: .5em 0;
     color: rgb(236, 229, 17);
+}
+
+@media (min-width: 600px) {
+    #finalScore {
+        font-size: 5rem;
+    }  
+    
+    .high-score {
+        font-size: 1.5rem;
+    }
 }
