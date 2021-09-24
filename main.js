@@ -54,7 +54,7 @@ function showQuestion(question) {
   const correctAnswer = question.correct_answer
   //add correct answer into array of incorrect_answer with random position
   if(!answersArray.includes(correctAnswer)){
-    answersArray.splice(Math.random() * 3, 0, correctAnswer)
+    answersArray.splice(Math.floor(Math.random() * 3), 0, correctAnswer)
   }
 
   questionElement.innerHTML = `<span>${question.category}</span> - ${question.question}`
