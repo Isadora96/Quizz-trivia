@@ -37,3 +37,4 @@ localStorage when the user enters their name and clicks the 'save' button at the
 - [Email](mailto:isadora.c.lopes@gmail.com)
 - [Website](https://isadora96.github.io/portfolio-dev-isa/)
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/bdb85c77-d6c6-49d9-b2b2-66150add9c0e/deploy-status)](https://app.netlify.com/sites/quiz-trivia-test/deploys)
