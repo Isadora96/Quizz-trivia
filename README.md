@@ -11,7 +11,7 @@ localStorage when the user enters their name and clicks the 'save' button at the
 
 ## Links
 
-- [Live](https://quiz-trivia-test.netlify.app/)
+- [Live Site](https://quiz-trivia-test.netlify.app/)
 
 - [API](https://opentdb.com/api_config.php)
 
